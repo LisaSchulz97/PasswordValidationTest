@@ -4,13 +4,13 @@ public class PasswordValidationFinal {
     public static void main(String[] args) {
 
 
-        System.out.println(checkTheLengthAndTheContent("blaPlabblab66"));
+        System.out.println(checkTheLengthAndTheContent("Passwort12"));
 
     }
 
 
     public static boolean makeTheRightLength(String lengthTest) {
-        return (lengthTest.length() > 8);
+        return (lengthTest.length() > 7);
     }
 
     public static boolean areNumbersThere(String containsNumbers) {
@@ -21,6 +21,10 @@ public class PasswordValidationFinal {
 
 
     public static String checkTheLengthAndTheContent(String password) {
+
+        if (isItPasswort(password)) {
+            return "your password is not safe enough";
+        }
         if (!makeTheRightLength(password)) {
             return "your password must contain at least 8 characters";
         }
@@ -33,7 +37,7 @@ public class PasswordValidationFinal {
         if (!isUppercaseThere(password)) {
             return "your password must contain an Uppercase";
         }
-        if (makeTheRightLength(password) && areNumbersThere(password) && isLowercaseThere(password) && isUppercaseThere(password)) {
+        if (makeTheRightLength(password) && areNumbersThere(password) && isLowercaseThere(password) && isUppercaseThere(password) &&!isItPasswort(password)) {
             return "your password is valid";
         } else {
             return "your password needs at least 8 characters and one digit";
@@ -58,8 +62,10 @@ public class PasswordValidationFinal {
         return false;
     }
 
-    //public static boolean isUppercaseThere(String containsUppercase) {
 
+    public static boolean isItPasswort(String password) {
+        return (password == "passwort" || password == "123456");
+    }
 }
 
 

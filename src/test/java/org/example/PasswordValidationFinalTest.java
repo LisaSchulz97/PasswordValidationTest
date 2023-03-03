@@ -74,6 +74,18 @@ void checkUpTheLength () {
         assertEquals(true, result);
 
     }
+
+    @Test
+    void checkIfpasswordIspasswort () {
+        //Given
+        String isPasswort = "passwort";
+
+        //When
+        boolean result = PasswordValidationFinal.isItPasswort(isPasswort);
+
+        //Then
+        assertEquals(true, result);
+    }
 }
 
 
