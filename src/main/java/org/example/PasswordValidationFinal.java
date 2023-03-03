@@ -4,7 +4,7 @@ public class PasswordValidationFinal {
     public static void main(String[] args) {
 
 
-        System.out.println(checkTheLengthAndTheContent("blablabblab66"));
+        System.out.println(checkTheLengthAndTheContent("blaPlabblab66"));
 
     }
 
@@ -27,12 +27,39 @@ public class PasswordValidationFinal {
         if (!areNumbersThere(password)) {
             return "your password must contain a digit";
         }
-        if (makeTheRightLength(password) && areNumbersThere(password)) {
+        if (!isLowercaseThere(password)) {
+            return "your password must contain an Lowercase";
+        }
+        if (!isUppercaseThere(password)) {
+            return "your password must contain an Uppercase";
+        }
+        if (makeTheRightLength(password) && areNumbersThere(password) && isLowercaseThere(password) && isUppercaseThere(password)) {
             return "your password is valid";
         } else {
             return "your password needs at least 8 characters and one digit";
         }
     }
+
+    public static boolean isLowercaseThere (String password) {
+        for (int i = 0; i < password.length(); ++i) {
+            if (Character.isLowerCase(password.charAt(i))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean isUppercaseThere(String password) {
+        for (int i = 0; i < password.length(); ++i) {
+            if (Character.isUpperCase(password.charAt(i))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //public static boolean isUppercaseThere(String containsUppercase) {
+
 }
 
 

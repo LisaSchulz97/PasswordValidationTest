@@ -46,6 +46,34 @@ void checkUpTheLength () {
         assertEquals(true, result);
 
     }
+
+
+    @Test
+    void checkUpIfLowercase() {
+        //Given
+        String containsLowercase = "blabliblub";
+
+        //When
+        boolean result = PasswordValidationFinal.isLowercaseThere(containsLowercase);
+
+        //Then
+        assertEquals(true, result);
+
+
+    }
+
+    @Test
+    void checkUpIfUppercase () {
+        //Given
+        String containsUppercase = "blablablA";
+
+        //When
+        boolean result = PasswordValidationFinal.isUppercaseThere(containsUppercase);
+
+        //Then
+        assertEquals(true, result);
+
+    }
 }
 
 
