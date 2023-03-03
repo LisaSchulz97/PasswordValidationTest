@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e49c7919-62f8-4b50-86ac-5a56c7174fc3" name="Changes" comment="First Commit" />
+    <list default="true" id="e49c7919-62f8-4b50-86ac-5a56c7174fc3" name="Changes" comment="finale Lösung!! (Ohne Scannerversuch)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677836908001</updated>
-      <workItem from="1677836909474" duration="10037000" />
+      <workItem from="1677836909474" duration="10952000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1677848705726</created>
@@ -82,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677850117957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finale Lösung!! (Ohne Scannerversuch)">
+      <created>1677850584978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850584978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="finale Lösung!! (Ohne Scannerversuch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="finale Lösung!! (Ohne Scannerversuch)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PasswordValidationTest$PasswordValidationFinalTest.ic" NAME="PasswordValidationFinalTest Coverage Results" MODIFIED="1677843546382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
