@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e49c7919-62f8-4b50-86ac-5a56c7174fc3" name="Changes" comment="Mit Bonusaufgaben FERTIG">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PasswordValidationFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PasswordValidationFinal.java" afterDir="false" />
-    </list>
+    <list default="true" id="e49c7919-62f8-4b50-86ac-5a56c7174fc3" name="Changes" comment="versuch target ordner" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677836908001</updated>
-      <workItem from="1677836909474" duration="18253000" />
+      <workItem from="1677836909474" duration="19095000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1677848705726</created>
@@ -113,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677860328326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="versuch target ordner">
+      <created>1678090738368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090738368</updated>
+    </task>
+    <task id="LOCAL-00009" summary="versuch target ordner">
+      <created>1678090788856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090788856</updated>
+    </task>
+    <task id="LOCAL-00010" summary="versuch target ordner">
+      <created>1678091492261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678091492262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +154,8 @@
     <MESSAGE value="finale Lösung!" />
     <MESSAGE value="Mit Bonusaufgabe Teil 1" />
     <MESSAGE value="Mit Bonusaufgaben FERTIG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mit Bonusaufgaben FERTIG" />
+    <MESSAGE value="versuch target ordner" />
+    <option name="LAST_COMMIT_MESSAGE" value="versuch target ordner" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PasswordValidationTest$PasswordValidationFinalTest.ic" NAME="PasswordValidationFinalTest Coverage Results" MODIFIED="1677843546382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
