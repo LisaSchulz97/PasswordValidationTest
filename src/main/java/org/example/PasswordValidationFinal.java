@@ -37,14 +37,14 @@ public class PasswordValidationFinal {
         if (!isUppercaseThere(password)) {
             return "your password must contain an Uppercase";
         }
-        if (makeTheRightLength(password) && areNumbersThere(password) && isLowercaseThere(password) && isUppercaseThere(password) &&!isItPasswort(password)) {
+        if (makeTheRightLength(password) && areNumbersThere(password) && isLowercaseThere(password) && isUppercaseThere(password) && !isItPasswort(password)) {
             return "your password is valid";
         } else {
             return "your password needs at least 8 characters and one digit";
         }
     }
 
-    public static boolean isLowercaseThere (String password) {
+    public static boolean isLowercaseThere(String password) {
         for (int i = 0; i < password.length(); ++i) {
             if (Character.isLowerCase(password.charAt(i))) {
                 return true;
