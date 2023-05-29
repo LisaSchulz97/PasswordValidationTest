@@ -4,7 +4,7 @@ public class PasswordValidationFinal {
     public static void main(String[] args) {
 
 
-        System.out.println(checkTheLengthAndTheContent("Passwort12"));
+        System.out.println(checkTheLengthAndTheContent("abc"));
 
     }
 
